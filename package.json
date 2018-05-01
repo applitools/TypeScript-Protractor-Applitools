@@ -1,0 +1,24 @@
+{
+  "name": "TypeScript-Protractor-Applitools",
+  "version": "0.0.1",
+  "main": "config.js",
+  "dependencies": {
+    "@types/jasmine": "^2.8.6",
+    "protractor": "5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.62",
+    "@types/jasminewd2": "2.0.3"
+  },
+  "scripts": {
+    "pretest": "npm run tsc",
+    "test": "protractor tmp/config.js",
+    "tsc": "tsc",
+    "start-server": "./node_modules/Protractor/node_modules/webdriver-manager/bin/webdriver-manager start",
+    "update-server": "./node_modules/Protractor/node_modules/webdriver-manager/bin/webdriver-manager update"
+  },
+  "keywords": [
+    "Protractor",
+    "Typescript"
+  ]
+}
