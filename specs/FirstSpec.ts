@@ -4,7 +4,7 @@ import {Eyes, ConsoleLogHandler, StitchMode} from 'eyes.selenium';
 let eyes = null;
 beforeAll(() => {
     eyes = new Eyes();
-    eyes.setApiKey("HZeTQj103qqbLJkpT0Ez81CTbivkDEYQx4Q7GjM104Kv2Hg110");
+    eyes.setApiKey("YOUR_API_KEY");
     //eyes.setLogHandler(new ConsoleLogHandler(true));
     //eyes.setStitchMode(StitchMode.CSS);
 });
