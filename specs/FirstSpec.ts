@@ -4,12 +4,12 @@ import {Eyes, ConsoleLogHandler, StitchMode} from 'eyes.selenium';
 let eyes = null;
 beforeAll(function(){
     eyes = new Eyes();
-    eyes.setApiKey("HZeTQj103qqbLJkpT0Ez81CTbivkDEYQx4Q7GjM104Kv2Hg110");
+    eyes.setApiKey("Your_API_key");
     //eyes.setLogHandler(new ConsoleLogHandler(true));
     //eyes.setStitchMode(StitchMode.CSS);
 });
 beforeEach(function(done){
-    eyes.open(browser, "Test98343", "NewJsTeswewet", {width: 800, height: 600}).then(function () {
+    eyes.open(browser, "TypeScript-Example", "NewTest", {width: 800, height: 600}).then(function () {
         done();
     });
 });
