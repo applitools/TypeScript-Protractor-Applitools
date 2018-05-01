@@ -12,6 +12,7 @@ npm install
 ## Run Tests
 
 ```
+npm run start-server
 npm test
 
 ```
